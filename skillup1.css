@@ -1,0 +1,23 @@
+header {
+  width: cover;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.nav-list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 1024px;
+}
+
+.nav-list > :first-child {
+  margin-right: auto;
+}
+
+.nav-item {
+  margin: 30px;
+  font-size: 16px;
+  color: #fafafa;
+}
