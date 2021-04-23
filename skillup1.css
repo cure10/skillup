@@ -13,6 +13,7 @@ header {
 }
 
 .nav-list > :first-child {
+  margin-top: 0px;
   margin-right: auto;
 }
 
@@ -20,4 +21,67 @@ header {
   margin: 30px;
   font-size: 16px;
   color: #fafafa;
+}
+
+.nav-item-img {
+  height: 70px;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: 100%;
+  background-position: 100% 100%;
+}
+
+.main-box {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.main-text {
+  margin: 0px;
+  font-size: 64px;
+  color: #fafafa;
+}
+
+.main-subtext {
+  margin: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.portfolio-bigbox {
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.portfolio-box {
+  margin: 0 auto;
+  padding-top: 90px;
+  width: 920px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 32px;
+  color: #000000;
+  position: relative;
+}
+h2:before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  height: 3px;
+  width: 70px;
+  transform: translate(50%);
+  background-color: #ec715f;
+}
+
+.portfolio-text {
+  margin: 30px;
+  font-size: 16px;
+  color: #000000;
 }
